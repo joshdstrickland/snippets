@@ -1,0 +1,76 @@
+.headroom--not-top {
+    position: fixed !important;
+    z-index: 999999 !important;
+    top: 0 !important;
+}
+
+.scrollup {
+    display: block !important;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+    position: fixed;
+    right: 30px;
+    bottom: -50px;
+    font-size: 0;
+    padding: 0 8px;
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.scrollup i {
+    font-size: 35px;
+}
+.scrollup.show {
+    bottom: 30px;
+    opacity: 0.8;
+}
+
+.fontawesome-text {display: none;}
+
+input {
+background-color: #294854 !important;
+border: 2px solid #fff568 !important;
+color: #fff !important;
+}
+
+textarea {
+background-color: #294854 !important;
+border: 2px solid #fff568;
+color: #fff !important;
+}
+
+select {
+background-color: #294854;
+border: 2px solid #fff568;
+color: #fff !important;
+}
+
+
+
+.contact-page .call-us h4, .page-template-template-underconstruction .under:before, .scheme .work-with-us:before, .scheme .who .consulting .info:before, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .scheme .home-projects, .scheme .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header, .scheme .testimonial:before, .scheme .home-projects:before, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active, .widget_shopping_cart_content .buttons a.button:hover, .projects-7:before, .counting:before {background-color:rgba(36, 83, 97, 0.38) !important;}
+
+#give {
+    line-height:  0.3 !important;
+}
+
+#login {
+    line-height: 0.3 !important;
+}
+@media (max-width: 991px){
+.col-md-3.col-xs-7.social {
+width:95% !important;
+}
+
+#give {
+margin-left:13px;
+margin-right:13px;
+}
+#login{
+margin-right:0px;
+}
+.footer .social .menu {
+    width: 292px !important;
+}
+}
+
